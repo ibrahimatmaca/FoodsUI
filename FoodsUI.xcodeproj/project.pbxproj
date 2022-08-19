@@ -14,6 +14,8 @@
 		9CD04B2828AD9D9200F77877 /* FoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD04B2728AD9D9200F77877 /* FoodsUITests.swift */; };
 		9CD04B3228AD9D9200F77877 /* FoodsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD04B3128AD9D9200F77877 /* FoodsUIUITests.swift */; };
 		9CD04B3428AD9D9200F77877 /* FoodsUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD04B3328AD9D9200F77877 /* FoodsUIUITestsLaunchTests.swift */; };
+		9CD88BC828B01A70009A00D1 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD88BC728B01A70009A00D1 /* FoodItem.swift */; };
+		9CD88BCA28B01EED009A00D1 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD88BC928B01EED009A00D1 /* Foods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9CD04B2D28AD9D9200F77877 /* FoodsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD04B3128AD9D9200F77877 /* FoodsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsUIUITests.swift; sourceTree = "<group>"; };
 		9CD04B3328AD9D9200F77877 /* FoodsUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CD88BC728B01A70009A00D1 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		9CD88BC928B01EED009A00D1 /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		9CD04B1528AD9D9100F77877 /* FoodsUI */ = {
 			isa = PBXGroup;
 			children = (
+				9CD88BC628B01858009A00D1 /* Models */,
+				9CD88BC528B01854009A00D1 /* View */,
 				9CD04B1628AD9D9100F77877 /* FoodsUIApp.swift */,
 				9CD04B1828AD9D9100F77877 /* ContentView.swift */,
 				9CD04B1A28AD9D9200F77877 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				9CD04B3328AD9D9200F77877 /* FoodsUIUITestsLaunchTests.swift */,
 			);
 			path = FoodsUIUITests;
+			sourceTree = "<group>";
+		};
+		9CD88BC528B01854009A00D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CD88BC728B01A70009A00D1 /* FoodItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CD88BC628B01858009A00D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CD88BC928B01EED009A00D1 /* Foods.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD04B1928AD9D9100F77877 /* ContentView.swift in Sources */,
+				9CD88BCA28B01EED009A00D1 /* Foods.swift in Sources */,
+				9CD88BC828B01A70009A00D1 /* FoodItem.swift in Sources */,
 				9CD04B1728AD9D9100F77877 /* FoodsUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
